@@ -11,6 +11,8 @@
 		C61770552624FC12008CF28A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61770542624FC12008CF28A /* ContentView.swift */; };
 		C61770572624FC13008CF28A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C61770562624FC13008CF28A /* Assets.xcassets */; };
 		C617705A2624FC13008CF28A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C61770592624FC13008CF28A /* Preview Assets.xcassets */; };
+		C6177064262500BE008CF28A /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = C6177062262500BE008CF28A /* tips.json */; };
+		C6177065262500BE008CF28A /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = C6177063262500BE008CF28A /* locations.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		C61770562624FC13008CF28A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C61770592624FC13008CF28A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C617705B2624FC13008CF28A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6177062262500BE008CF28A /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
+		C6177063262500BE008CF28A /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,8 @@
 		C61770512624FC12008CF28A /* Treker */ = {
 			isa = PBXGroup;
 			children = (
+				C6177063262500BE008CF28A /* locations.json */,
+				C6177062262500BE008CF28A /* tips.json */,
 				C61770522624FC12008CF28A /* TrekerApp.swift */,
 				C61770542624FC12008CF28A /* ContentView.swift */,
 				C61770562624FC13008CF28A /* Assets.xcassets */,
@@ -128,6 +134,8 @@
 			files = (
 				C617705A2624FC13008CF28A /* Preview Assets.xcassets in Resources */,
 				C61770572624FC13008CF28A /* Assets.xcassets in Resources */,
+				C6177065262500BE008CF28A /* locations.json in Resources */,
+				C6177064262500BE008CF28A /* tips.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
