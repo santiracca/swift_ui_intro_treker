@@ -13,7 +13,9 @@
 		C617705A2624FC13008CF28A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C61770592624FC13008CF28A /* Preview Assets.xcassets */; };
 		C6177064262500BE008CF28A /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = C6177062262500BE008CF28A /* tips.json */; };
 		C6177065262500BE008CF28A /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = C6177063262500BE008CF28A /* locations.json */; };
+		C66289B52627431A004905D0 /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66289B42627431A004905D0 /* TipsView.swift */; };
 		C684BB3926271492008BA2F6 /* WorldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C684BB3826271492008BA2F6 /* WorldView.swift */; };
+		C684BB3C26271E13008BA2F6 /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = C684BB3B26271E13008BA2F6 /* Tip.swift */; };
 		C6C23F42262665E00028CBFA /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C23F41262665E00028CBFA /* Location.swift */; };
 		C6C23F4826266B940028CBFA /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C23F4726266B940028CBFA /* Locations.swift */; };
 /* End PBXBuildFile section */
@@ -27,7 +29,9 @@
 		C617705B2624FC13008CF28A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6177062262500BE008CF28A /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
 		C6177063262500BE008CF28A /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
+		C66289B42627431A004905D0 /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
 		C684BB3826271492008BA2F6 /* WorldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldView.swift; sourceTree = "<group>"; };
+		C684BB3B26271E13008BA2F6 /* Tip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip.swift; sourceTree = "<group>"; };
 		C6C23F41262665E00028CBFA /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		C6C23F4726266B940028CBFA /* Locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -67,6 +71,8 @@
 				C6177062262500BE008CF28A /* tips.json */,
 				C61770522624FC12008CF28A /* TrekerApp.swift */,
 				C684BB3826271492008BA2F6 /* WorldView.swift */,
+				C684BB3B26271E13008BA2F6 /* Tip.swift */,
+				C66289B42627431A004905D0 /* TipsView.swift */,
 				C61770542624FC12008CF28A /* ContentView.swift */,
 				C61770562624FC13008CF28A /* Assets.xcassets */,
 				C617705B2624FC13008CF28A /* Info.plist */,
@@ -158,6 +164,8 @@
 				C61770552624FC12008CF28A /* ContentView.swift in Sources */,
 				C6C23F42262665E00028CBFA /* Location.swift in Sources */,
 				C684BB3926271492008BA2F6 /* WorldView.swift in Sources */,
+				C684BB3C26271E13008BA2F6 /* Tip.swift in Sources */,
+				C66289B52627431A004905D0 /* TipsView.swift in Sources */,
 				C6C23F4826266B940028CBFA /* Locations.swift in Sources */,
 				C61770532624FC12008CF28A /* TrekerApp.swift in Sources */,
 			);
