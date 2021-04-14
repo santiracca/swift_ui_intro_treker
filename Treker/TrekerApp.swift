@@ -7,11 +7,16 @@
 
 import SwiftUI
 
+
 @main
 struct TrekerApp: App {
+
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+				ContentView(location: Locations().primary)
+			}
         }
     }
 }
