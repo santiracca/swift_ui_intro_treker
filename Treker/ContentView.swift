@@ -36,10 +36,12 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-       NavigationView {
-        ContentView(location: Locations().primary)
-		}
-    }
-}
+//struct ContentView_Previews: PreviewProvider {
+//    static var previews: some View {
+//		TabView {
+//			NavigationView {
+//				ContentView(location: Locations().primary)
+//			}
+//		}
+//    }
+//}
